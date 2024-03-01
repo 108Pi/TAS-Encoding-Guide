@@ -16,10 +16,10 @@ Select 'Tools > Video Recorder > Stop Recording'
 
 ## Encoding
 FFmpeg: Installation for [Windows](https://www.wikihow.com/Install-FFmpeg-on-Windows) and [Linux](https://linuxize.com/post/how-to-install-ffmpeg-on-debian-9/)
-### Hardware accelerating with NVENC
-If you have a Nvidia gpu you can use NVENC to encode with hardware.
 
-[Script for NVENC encoding](EncodeNVENC.bat) - Place in the same folder as your AVI. Rename it to input.avi and run the batch script. 
+[Script for encoding](Encode.bat) - Place in the same folder as your AVI. Rename it to input.avi and run the batch script. 
+
+If you have a Nvidia gpu you can use NVENC to encode with hardware. [Script for NVENC encoding](EncodeNVENC.bat)
 
 An upscale factor of 9 (4K) is recommended if the video is being uploaded to YouTube.
 
