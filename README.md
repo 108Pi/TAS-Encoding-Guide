@@ -21,8 +21,10 @@ FFmpeg: Installation for [Windows](https://www.wikihow.com/Install-FFmpeg-on-Win
 
 If you have a Nvidia gpu you can use NVENC to encode with hardware. [Script for NVENC encoding](EncodeNVENC.bat)
 
+If you have a Radeon gpu you can use AMF to encode with hardware. [Script for AMF encoding](EncodeAMF.bat)
+
 An upscale factor of 9 (4K) is recommended if the video is being uploaded to YouTube.
 
 If uploading to Discord, a factor of 4 usually works well. Also be sure to change the file extension to .mp4 in the batch script. 
 ### A note on resolution 
-The video will likely appear blury if its vertical resolution is not a factor of the vertical resolution of the monitor it is displayed on. There are two reasons that contribute to this. If the resolution of the screen is larger than the video, then the video will be upscaled to fill the screen. Most programs do this by taking an average of pixel colors. Usually this makes it look less pixelated, but if the result is supposed to be pixelated then it makes it look blury. Second, if the resolution of the video is larger than the screen but does not divide evenly, then some pixels will be different sizes when displayed. 
+The video will likely appear blury if its vertical resolution is not a factor of the vertical resolution of the monitor it is displayed on. If the video resolution is smaller than the screen, the video will be upscaled to fill the screen. Most programs do this by taking an average of pixel colors. Usually this makes it look less pixelated, but if the result is supposed to be pixelated then it makes it look blury. Second, if the resolution of the video is larger than the screen but does not divide evenly, then some pixels will be different sizes when displayed. 
